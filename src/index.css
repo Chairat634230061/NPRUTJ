@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .npru-input {
+    @apply border border-blue-100 hover:border-blue-400 rounded-md py-1.5 text-sm w-full px-2;
+  }
+  .npru-button {
+    @apply bg-blue-600 hover:bg-blue-800 rounded-sm text-gray-100 p-2;
+  }
+  .save-button {
+    @apply bg-violet-900 hover:bg-violet-300 text-white hover:text-gray-800 font-bold py-2 px-4 rounded-l;
+  }
+}
